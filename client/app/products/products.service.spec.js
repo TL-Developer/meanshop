@@ -7,8 +7,8 @@ describe('Service: products', function () {
 
   // instantiate service
   var products;
-  beforeEach(inject(function (_products_) {
-    products = _products_;
+  beforeEach(inject(function (_Products_) {
+    products = _Products_;
   }));
 
   it('should do something', function () {
