@@ -29,7 +29,7 @@ angular.module('meanshopApp')
 
   .controller('ProductEditCtrl', function($scope, $state, $stateParams, Products) {
 
-    $scope.product = Product.get({id: $stateParams.id});
+    $scope.product = Products.get({id: $stateParams.id});
 
     $scope.editProduct = function(product) {
       Products.update($scope.product);

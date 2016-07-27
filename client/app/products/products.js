@@ -12,7 +12,7 @@ angular.module('meanshopApp')
       .state('newProduct', {
         url: '/products/new',
         templateUrl: 'app/products/templates/product-new.html',
-        controller: 'ProdcutNewCtrl'
+        controller: 'ProductNewCtrl'
       })
 
       .state('viewProduct', {
